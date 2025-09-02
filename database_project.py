@@ -145,3 +145,5 @@ while True:
     else:
         print("Invalid choicee")
 
+cursor.close()
+conn.close()
