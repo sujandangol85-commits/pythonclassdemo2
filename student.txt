@@ -1,4 +1,1 @@
-Name,Mark1,Mark2
-Sujan,56,43
-Saroj,54,68
-Ram,90,32
+sujan,bakaiscool

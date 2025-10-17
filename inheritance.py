@@ -23,10 +23,10 @@
 
 
 class Animal:
-    def __init__(self,name,breed,price):
-        self.name=name
-        self.breed=breed
-        self.price=price
+    def __init__(self, name, breed, price):
+        self.name = name
+        self.breed = breed
+        self.price = price
 
     def sound(self):
         print("woof woof")
@@ -35,16 +35,17 @@ class Animal:
         print(f"Name={self.name} Breed={self.breed} Price={self.price}")
 
 class Dog(Animal):
-    def __init__(self):
-        super().__init__()
-        print("hey it's constructor of dog.")
+    def __init__(self, name, breed, price):
+        super().__init__(name, breed, price)
+        print("Hey, it's the constructor of Dog.")
 
 class Cat(Animal):
     pass
 
 class Cow(Animal):
     pass
-        
-dog_object=Dog("Jacky","GermanShephard",3500)
+
+dog_object = Dog("Jacky", "German Shepherd", 3500)
 dog_object.sound()
 dog_object.information()
+

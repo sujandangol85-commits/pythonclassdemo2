@@ -1,29 +1,29 @@
 #1. dictionary(Mutable)
-# marks = {
-#     "Sujan": 54,
-#     "Lisa": 52,
-#     "Rita": 76,
-#     1: "Shyam"
-# }
+marks = {
+    "Sujan": 54,
+    "Lisa": 52,
+    "Rita": 76,
+    1: "Shyam"
+}
 
-# print(marks, type(marks))
-# print(marks["Sujan"]) #corresponding of Sujan
+print(marks, type(marks))
+print(marks["Sujan"]) #corresponding of Sujan
 
-#methods of dictionary
-# print(len(marks))
-# print(marks.items()) #print all of the above(keys+values)
-# print(marks.keys()) #print the keys (agadiko)
-# print(marks.values()) #print the values (pxadiko)
-# marks.update({"Sujan":100, "Sita":34}) #updating the values +addition
-# print(marks.items())
+# methods of dictionary
+print(len(marks))
+print(marks.items()) #print all of the above(keys+values)
+print(marks.keys()) #print the keys (agadiko)
+print(marks.values()) #print the values (pxadiko)
+marks.update({"Sujan":100, "Sita":34}) #updating the values +addition
+print(marks.items())
 
-# print(marks.get("Sujan6")) #diff between these 2 is that get return none if the name doesn't exist and
-# print(marks["Sujan6"])  #it returns error if name doesn't exist if exists then both are same
+print(marks.get("Sujan6")) #diff between these 2 is that get return none if the name doesn't exist and
+print(marks["Sujan6"])  #it returns error if name doesn't exist if exists then both are same
 
 
-# print(marks.clear()) #clears all item from dictionary
-# print(marks.popitem()) #returns the last item of dictionary(LIFO)
-# print(marks.pop("Lisa"))#Removes the specified key and returns its value Output: 52
+print(marks.clear()) #clears all item from dictionary
+print(marks.popitem()) #returns the last item of dictionary(LIFO)
+print(marks.pop("Lisa"))#Removes the specified key and returns its value Output: 52
 
 
 
